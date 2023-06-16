@@ -1,4 +1,4 @@
-# # MyPokedex
+# MyPokedex
 This is a Pokedex JavaScript project that allows you to explore and view animated sprites of the first five generations of Pokemon. You can search for Pokemon either by their number or by their name, and the Pokedex will display the corresponding animated sprite.
 
 - Link to open the site: 
