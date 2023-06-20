@@ -37,6 +37,13 @@ const renderPokemon = async (pokemon) => {
       ];
     input.value = "";
     searchPokemon = data.id;
+  }
+  else if(input.value >= 649)
+  {
+    pokemonImage.style.display = "none";
+    pokemonName.innerHTML = "Unavailable :c";
+    pokemonNumber.innerHTML = "";
+    input.value = "";    
   } else {
     pokemonImage.style.display = "none";
     pokemonName.innerHTML = "Not Found :c";
