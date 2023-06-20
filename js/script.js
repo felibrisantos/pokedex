@@ -39,19 +39,11 @@ const renderPokemon = async (pokemon) => {
     searchPokemon = data.id;
   } 
   else {
-    if (parseInt(pokemon) > 649 || parseInt(input.value) > 649) {
-    pokemonName.innerHTML = "Unavailable :c";
-    pokemonImage.style.display = "none";
-    pokemonNumber.innerHTML = "";
-    input.value = ""
-    }
-    else{
-    pokemonImage.style.display = "none";
+      pokemonImage.style.display = "none";
     pokemonName.innerHTML = "Not Found :c";
     pokemonNumber.innerHTML = "";
     input.value = "";
   }
-}
 };
 const renderPokemonShiny = async (pokemon) => {
   pokemonName.innerHTML = "Loading...";
