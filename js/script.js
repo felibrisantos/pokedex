@@ -33,8 +33,8 @@ const renderPokemon = async (pokemon) => {
     pokemonNumber.innerHTML = data.id;
     pokemonImage.src =
       data["sprites"]["versions"]["generation-v"]["black-white"]["animated"][
-        "front_default"
-      ];
+      "front_default"
+    ];
     input.value = "";
     search:!Pokemon = data.id;
   } else {
@@ -55,8 +55,8 @@ const renderPokemonShiny = async (pokemon) => {
     pokemonNumber.innerHTML = data.id;
     pokemonImage.src =
       data["sprites"]["versions"]["generation-v"]["black-white"]["animated"][
-        "front_shiny"
-      ];
+      "front_shiny"
+    ];
     input.value = "";
     searchPokemon = data.id;
   }
